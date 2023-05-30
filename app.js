@@ -20,7 +20,7 @@ app.get('/app2', (req, res) => {
   res.send('Hello this App 2!')
 });
 
-app.get('/app2', (req, res) => {
+app.get('/firman', (req, res) => {
   res.send('Hello this Firman')
 });
 
