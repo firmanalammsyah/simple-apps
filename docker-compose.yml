@@ -10,6 +10,7 @@ services:
       - "3000"
     volumes:
       - app-data:/app/public/images
+ 
 
   db:
     image: "mariadb"
@@ -26,6 +27,9 @@ services:
     volumes:
       - ./apps/database/:/docker-entrypoint-initdb.d
       - db-data:/var/lib/mysql
+#    network:
+#      - simple-apps_default:
+#     ipv4_address: "172.19.0.2"
 
   phpmyadmin:
     image: "phpmyadmin"
