@@ -9,6 +9,12 @@ body {
 }
 
 h1{
-    font-style: italic;
     color: red;
+    font-style: italic;
+    
+}
+
+h2 {
+    color: yellow;
+    font-style: italic;
 }
